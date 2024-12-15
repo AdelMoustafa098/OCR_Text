@@ -5,7 +5,7 @@ IMAGE_HEIGHT = 80  # Image height
 BATCH_SIZE = 32  # Batch size for training
 MAX_TEXT_LENGTH = 77
 NUM_CLASSES = 72
-EPOCHS = 1
+EPOCHS = 50
 LEARNING_RATE = 1e-4
 
 
