@@ -6,6 +6,9 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C image_processor.py
+	pylint --disable=R,C *.py
+
+test:
+	python -m pytest -vv --cov=hello Tests/
 
 all: install format lint test
