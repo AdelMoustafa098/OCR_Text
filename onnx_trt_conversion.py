@@ -5,7 +5,7 @@ from config import *
 import tensorflow as tf
 
 # Load the saved Keras model
-saved_model_path = "crnn_ocr_model_cross_entropy.h5"
+saved_model_path = "crnn_ocr_model_cross_entropy.keras"
 output_onnx_path = "crnn_ocr_model.onnx"
 
 # Convert the Keras model to a TensorFlow SavedModel
